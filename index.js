@@ -9,7 +9,7 @@ let coin1 = 'XMR';
 let coin2 = 'BTC';
 let sourceRef = 'okex';
 let sourecTrade = 'cryptopia';
-let offsetPercent = 0.5;
+let offsetPercent = 0.6;
 
 let exchangeRef = new ccxt[sourceRef](); // eslint-disable-line
 let exchangeTrade = new ccxt[sourecTrade]({
